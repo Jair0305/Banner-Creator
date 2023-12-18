@@ -21,12 +21,12 @@ ventana = tk.Tk()
 
 ventana.title("SpringBoot Banner Creator")
 
-label = tk.Label(ventana, text="Ingresa el texto que deseas convertir a banner:")
+label = tk.Label(ventana, text="Enter the text to convert to banner:")
 
 cuadro_texto = tk.Entry(ventana, width=30)
 
-boton = tk.Button(ventana, text="Guardar en txt", command=on_button_click)
-boton2 = tk.Button(ventana, text="mostrar en consola", command=on_button_click2)
+boton = tk.Button(ventana, text="Save in txt file", command=on_button_click)
+boton2 = tk.Button(ventana, text="Show in terminal", command=on_button_click2)
 
 label.pack(pady=10)
 cuadro_texto.pack(pady=10)
